@@ -1,0 +1,299 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'bigint' ]
+2 info using npm@3.10.10
+3 info using node@v6.12.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bigint
+8 silly fetchNamedPackageData bigint
+9 silly mapToRegistry name bigint
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bigint',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bigint',
+12 silly mapToRegistry   name: 'bigint',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/bigint
+14 verbose request uri https://registry.npmjs.org/bigint
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:24:39 PM
+17 verbose request id cd9b7a34a219df04
+18 http request GET https://registry.npmjs.org/bigint
+19 http 200 https://registry.npmjs.org/bigint
+20 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+20 verbose headers   server: 'UploadServer',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'last-modified': 'Thu, 28 Dec 2017 4:28:34 GMT',
+20 verbose headers   etag: '"5a4472f2-b244"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'content-length': '5087',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sun, 07 Jan 2018 14:24:40 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-itm18828-ITM',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1515335080.946777,VS0,VE253',
+20 verbose headers   vary: 'Accept-Encoding, Accept' }
+21 silly get cb [ 200,
+21 silly get   { 'content-type': 'application/json; charset=UTF-8',
+21 silly get     server: 'UploadServer',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'last-modified': 'Thu, 28 Dec 2017 4:28:34 GMT',
+21 silly get     etag: '"5a4472f2-b244"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'content-length': '5087',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sun, 07 Jan 2018 14:24:40 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-itm18828-ITM',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1515335080.946777,VS0,VE253',
+21 silly get     vary: 'Accept-Encoding, Accept' } ]
+22 verbose get saving bigint to /home/william/.npm/registry.npmjs.org/bigint/.cache.json
+23 verbose correctMkdir /home/william/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule bigint@0.4.2 checking installable status
+37 silly cache add args [ 'bigint', null ]
+38 verbose cache add spec bigint
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'bigint',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'bigint',
+39 silly cache add   name: 'bigint',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed bigint@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for bigint
+42 info addNameTag [ 'bigint', 'latest' ]
+43 silly mapToRegistry name bigint
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'bigint',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'bigint',
+46 silly mapToRegistry   name: 'bigint',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/bigint
+48 verbose addNameTag registry:https://registry.npmjs.org/bigint not in flight; fetching
+49 verbose get https://registry.npmjs.org/bigint not expired, no request
+50 silly addNameTag next cb for bigint with tag latest
+51 silly addNamed bigint@0.4.2
+52 verbose addNamed "0.4.2" is a plain semver version for bigint
+53 silly mapToRegistry name bigint
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'bigint',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'bigint',
+56 silly mapToRegistry   name: 'bigint',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/bigint
+58 verbose addRemoteTarball https://registry.npmjs.org/bigint/-/bigint-0.4.2.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/bigint/-/bigint-0.4.2.tgz',
+59 verbose addRemoteTarball   '5bccafb5af3924cc71eb59942fb3a64a12906e49' ]
+60 info retry fetch attempt 1 at 10:24:40 PM
+61 info attempt registry request try #1 at 10:24:40 PM
+62 http fetch GET https://registry.npmjs.org/bigint/-/bigint-0.4.2.tgz
+63 http fetch 200 https://registry.npmjs.org/bigint/-/bigint-0.4.2.tgz
+64 silly fetchAndShaCheck shasum 5bccafb5af3924cc71eb59942fb3a64a12906e49
+65 verbose addTmpTarball /tmp/npm-15800-74ecf6b3/registry.npmjs.org/bigint/-/bigint-0.4.2.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for bigint@0.4.2
+67 verbose correctMkdir /home/william/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd bigint@0.4.2
+69 verbose afterAdd /home/william/.npm/bigint/0.4.2/package/package.json not in flight; writing
+70 verbose correctMkdir /home/william/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /home/william/.npm/bigint/0.4.2/package/package.json written
+72 silly loadAllDepsIntoIdealTree Finishing
+73 silly loadIdealTree Finishing
+74 silly currentTree euler
+75 silly idealTree euler
+75 silly idealTree └── bigint@0.4.2
+76 silly generateActionsToTake Starting
+77 silly install generateActionsToTake
+78 silly generateActionsToTake Finishing
+79 silly diffTrees action count 1
+80 silly diffTrees add bigint@0.4.2
+81 silly decomposeActions action count 8
+82 silly decomposeActions fetch bigint@0.4.2
+83 silly decomposeActions extract bigint@0.4.2
+84 silly decomposeActions test bigint@0.4.2
+85 silly decomposeActions preinstall bigint@0.4.2
+86 silly decomposeActions build bigint@0.4.2
+87 silly decomposeActions install bigint@0.4.2
+88 silly decomposeActions postinstall bigint@0.4.2
+89 silly decomposeActions finalize bigint@0.4.2
+90 silly runTopLevelLifecycles Starting
+91 silly executeActions Starting
+92 silly install executeActions
+93 silly doSerial global-install 0
+94 silly doParallel fetch 1
+95 verbose correctMkdir /home/william/.npm/_locks correctMkdir not in flight; initializing
+96 verbose lock using /home/william/.npm/_locks/staging-b56188549402b61a.lock for /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging
+97 silly doParallel extract 1
+98 silly extract bigint@0.4.2
+99 verbose unbuild node_modules/.staging/bigint-5498abf3
+100 silly gentlyRm /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3 is being purged from base /media/william/Windows/Users/William/Dropbox/euler
+101 verbose gentlyRm don't care about contents; nuking /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3
+102 verbose tar unpack /home/william/.npm/bigint/0.4.2/package.tgz
+103 verbose tar unpacking to /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3
+104 silly gentlyRm /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3 is being purged
+105 verbose gentlyRm don't care about contents; nuking /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3
+106 silly gunzTarPerm modes [ '775', '664' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+109 silly gunzTarPerm extractEntry .npmignore
+110 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+111 silly gunzTarPerm extractEntry index.js
+112 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+113 silly gunzTarPerm extractEntry examples/simple.js
+114 silly gunzTarPerm modified mode [ 'examples/simple.js', 420, 436 ]
+115 silly gunzTarPerm extractEntry examples/perfect.js
+116 silly gunzTarPerm modified mode [ 'examples/perfect.js', 420, 436 ]
+117 silly gunzTarPerm extractEntry examples/gen.js
+118 silly gunzTarPerm modified mode [ 'examples/gen.js', 420, 436 ]
+119 silly gunzTarPerm extractEntry test/rand.js
+120 silly gunzTarPerm modified mode [ 'test/rand.js', 420, 436 ]
+121 silly gunzTarPerm extractEntry test/invertm.js
+122 silly gunzTarPerm modified mode [ 'test/invertm.js', 420, 436 ]
+123 silly gunzTarPerm extractEntry test/primes.js
+124 silly gunzTarPerm modified mode [ 'test/primes.js', 420, 436 ]
+125 silly gunzTarPerm extractEntry test/mod.js
+126 silly gunzTarPerm modified mode [ 'test/mod.js', 420, 436 ]
+127 silly gunzTarPerm extractEntry test/cmp.js
+128 silly gunzTarPerm modified mode [ 'test/cmp.js', 420, 436 ]
+129 silly gunzTarPerm extractEntry test/create.js
+130 silly gunzTarPerm modified mode [ 'test/create.js', 420, 436 ]
+131 silly gunzTarPerm extractEntry test/arithmetic.js
+132 silly gunzTarPerm modified mode [ 'test/arithmetic.js', 420, 436 ]
+133 silly gunzTarPerm extractEntry test/bit_length.js
+134 silly gunzTarPerm modified mode [ 'test/bit_length.js', 420, 436 ]
+135 silly gunzTarPerm extractEntry test/seed.js
+136 silly gunzTarPerm modified mode [ 'test/seed.js', 420, 436 ]
+137 silly gunzTarPerm extractEntry test/buf.js
+138 silly gunzTarPerm modified mode [ 'test/buf.js', 420, 436 ]
+139 silly gunzTarPerm extractEntry test/gcd.js
+140 silly gunzTarPerm modified mode [ 'test/gcd.js', 420, 436 ]
+141 silly gunzTarPerm extractEntry test/bitwise.js
+142 silly gunzTarPerm modified mode [ 'test/bitwise.js', 420, 436 ]
+143 silly gunzTarPerm extractEntry test/pow.js
+144 silly gunzTarPerm modified mode [ 'test/pow.js', 420, 436 ]
+145 silly gunzTarPerm extractEntry test/shift.js
+146 silly gunzTarPerm modified mode [ 'test/shift.js', 420, 436 ]
+147 silly gunzTarPerm extractEntry wscript
+148 silly gunzTarPerm modified mode [ 'wscript', 420, 436 ]
+149 silly gunzTarPerm extractEntry .travis.yml
+150 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+151 silly gunzTarPerm extractEntry bigint.cc
+152 silly gunzTarPerm modified mode [ 'bigint.cc', 420, 436 ]
+153 silly gunzTarPerm extractEntry README.markdown
+154 silly gunzTarPerm modified mode [ 'README.markdown', 420, 436 ]
+155 silly gunzTarPerm extractEntry binding.gyp
+156 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 436 ]
+157 silly gentlyRm /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3/node_modules is being purged
+158 verbose gentlyRm don't care about contents; nuking /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3/node_modules
+159 silly doParallel preinstall 1
+160 silly preinstall bigint@0.4.2 /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3
+161 info lifecycle bigint@0.4.2~preinstall: bigint@0.4.2
+162 silly lifecycle bigint@0.4.2~preinstall: no script for preinstall, continuing
+163 silly doReverseSerial remove 0
+164 silly doSerial move 0
+165 silly doSerial finalize 1
+166 silly finalize /media/william/Windows/Users/William/Dropbox/euler/node_modules/bigint
+167 silly doSerial build 1
+168 silly build bigint@0.4.2
+169 info linkStuff bigint@0.4.2
+170 silly linkStuff bigint@0.4.2 has /media/william/Windows/Users/William/Dropbox/euler/node_modules as its parent node_modules
+171 verbose linkBins bigint@0.4.2
+172 verbose linkMans bigint@0.4.2
+173 silly doSerial global-link 0
+174 silly doParallel update-linked 0
+175 silly doSerial install 1
+176 silly install bigint@0.4.2 /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging/bigint-5498abf3
+177 info lifecycle bigint@0.4.2~install: bigint@0.4.2
+178 verbose lifecycle bigint@0.4.2~install: unsafe-perm in lifecycle true
+179 verbose lifecycle bigint@0.4.2~install: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/media/william/Windows/Users/William/Dropbox/euler/node_modules/bigint/node_modules/.bin:/media/william/Windows/Users/William/Dropbox/euler/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+180 verbose lifecycle bigint@0.4.2~install: CWD: /media/william/Windows/Users/William/Dropbox/euler/node_modules/bigint
+181 silly lifecycle bigint@0.4.2~install: Args: [ '-c', 'node-gyp configure build' ]
+182 silly lifecycle bigint@0.4.2~install: Returned: code: 1  signal: null
+183 info lifecycle bigint@0.4.2~install: Failed to exec install script
+184 verbose unlock done using /home/william/.npm/_locks/staging-b56188549402b61a.lock for /media/william/Windows/Users/William/Dropbox/euler/node_modules/.staging
+185 silly rollbackFailedOptional Starting
+186 silly rollbackFailedOptional Finishing
+187 silly runTopLevelLifecycles Finishing
+188 silly install printInstalled
+189 warn enoent ENOENT: no such file or directory, open '/media/william/Windows/Users/William/Dropbox/euler/package.json'
+190 verbose enoent ENOENT: no such file or directory, open '/media/william/Windows/Users/William/Dropbox/euler/package.json'
+190 verbose enoent This is most likely not a problem with npm itself
+190 verbose enoent and is related to npm not being able to find a file.
+191 warn euler No description
+192 verbose If you need help, you may report this error at:
+192 verbose     <https://github.com/npm/npm/issues>
+193 warn euler No repository field.
+194 verbose If you need help, you may report this error at:
+194 verbose     <https://github.com/npm/npm/issues>
+195 warn euler No README data
+196 verbose If you need help, you may report this error at:
+196 verbose     <https://github.com/npm/npm/issues>
+197 warn euler No license field.
+198 verbose If you need help, you may report this error at:
+198 verbose     <https://github.com/npm/npm/issues>
+199 verbose stack Error: bigint@0.4.2 install: `node-gyp configure build`
+199 verbose stack Exit status 1
+199 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+199 verbose stack     at emitTwo (events.js:106:13)
+199 verbose stack     at EventEmitter.emit (events.js:191:7)
+199 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+199 verbose stack     at emitTwo (events.js:106:13)
+199 verbose stack     at ChildProcess.emit (events.js:191:7)
+199 verbose stack     at maybeClose (internal/child_process.js:920:16)
+199 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+200 verbose pkgid bigint@0.4.2
+201 verbose cwd /media/william/Windows/Users/William/Dropbox/euler
+202 error Linux 4.10.0-42-generic
+203 error argv "/usr/bin/node" "/usr/bin/npm" "install" "bigint"
+204 error node v6.12.3
+205 error npm  v3.10.10
+206 error code ELIFECYCLE
+207 error bigint@0.4.2 install: `node-gyp configure build`
+207 error Exit status 1
+208 error Failed at the bigint@0.4.2 install script 'node-gyp configure build'.
+208 error Make sure you have the latest version of node.js and npm installed.
+208 error If you do, this is most likely a problem with the bigint package,
+208 error not with npm itself.
+208 error Tell the author that this fails on your system:
+208 error     node-gyp configure build
+208 error You can get information on how to open an issue for this project with:
+208 error     npm bugs bigint
+208 error Or if that isn't available, you can get their info via:
+208 error     npm owner ls bigint
+208 error There is likely additional logging output above.
+209 verbose exit [ 1, true ]
